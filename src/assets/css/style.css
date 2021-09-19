@@ -1776,7 +1776,7 @@ section .container-fluid {
   display: inline-block;
   width: 37px;
   height: 37px;
-  background-image: url("../img/icons/call.png");
+  background-image: url("/assets/img/icons/call.png");
   position: absolute;
   left: 0;
   top: -2px;
@@ -2168,7 +2168,7 @@ section .container-fluid {
   appearance: none;
   color: #1d1d1d;
   border: 0;
-  background: url("../img/icons/select-arrow.png");
+  background: url("/assets/img/icons/select-arrow.png");
   background-repeat: no-repeat;
   background-position: center right 8px;
   -webkit-box-shadow: none;
@@ -2625,7 +2625,7 @@ section .container-fluid {
   appearance: none;
   color: #1d1d1d;
   border: 0;
-  background: url("../img/icons/select-arrow.png");
+  background: url("/assets/img/icons/select-arrow.png");
   background-repeat: no-repeat;
   background-position: center right 8px;
   -webkit-box-shadow: none;
@@ -2784,7 +2784,7 @@ section .container-fluid {
 }
 .off-canvas-wrapper .off-canvas-overlay {
   background-color: rgba(15, 15, 15, 0.5);
-  cursor: url("../img/icons/cancel-white.png"), auto;
+  cursor: url("/assets/img/icons/cancel-white.png"), auto;
   position: absolute;
   left: 0;
   top: 0;
@@ -4590,7 +4590,7 @@ section .container-fluid {
   line-height: 26px;
 }
 .product-inner-wrapper .product-header-wrap .sort-by-form select {
-  background-image: url("../img/icons/arrow-down.png");
+  background-image: url("/assets/img/icons/arrow-down.png");
   -moz-appearance: none;
   appearance: none;
   -webkit-appearance: none;

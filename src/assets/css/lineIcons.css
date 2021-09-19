@@ -3,14 +3,14 @@
     font-style: normal;
     font-weight: 400;
     font-display: auto;
-    src: url(../fonts/la-brands-400.woff2);
+    src: url("/assets/fonts/la-brands-400.woff2");
 }
 @font-face {
     font-family: 'Line Awesome Free';
     font-style: normal;
     font-weight: 900;
     font-display: auto;
-    src: url(../fonts/la-solid-900.woff2);
+    src: url("/assets/fonts/la-solid-900.woff2");
 }
 
 .la,
