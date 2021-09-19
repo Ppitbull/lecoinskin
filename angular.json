@@ -32,14 +32,17 @@
               "src/assets/css/bootstrap.min.css",
               "src/assets/css/ionicons.min.css",
               "src/assets/css/simple-line-icons.css",
+              "src/assets/css/lineIcons.css",
               "src/assets/css/font-awesome.min.css",
               "src/assets/css/animate.css",
               "src/assets/css/swiper.min.css",
               "src/assets/css/range-slider.css",
+              "src/assets/css/fancybox.min.css",
               "src/assets/css/slicknav.css",
               "src/assets/css/owlcarousel.min.css",
               "src/assets/css/owltheme.min.css",
               "src/assets/css/spacing.css",
+              "src/assets/css/theme-font.css",
               "src/assets/css/style.css"
             ],
             "scripts": [
