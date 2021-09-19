@@ -28,9 +28,38 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./assets/css/bootstrap.min.css",
+              "./assets/css/ionicons.min.css",
+              "./assets/css/simple-line-icons.css",
+              "./assets/css/font-awesome.min.css",
+              "./assets/css/animate.css",
+              "./assets/css/swiper.css",
+              "./assets/css/range-slider.css",
+              "./assets/css/slicknav.min.css",
+              "./assets/css/owlcarousel.min.css",
+              "./assets/css/owltheme.min.css",
+              "./assets/css/spacing.min.css",
+              "./assets/css/spacing.css",
+              "./assets/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./assets/js/modernizr.js",
+              "./assets/js/jquery-main.js",
+              "./assets/js/jquery-migrate.js",
+              "./assets/js/popper.min.js",
+              "./assets/js/bootstrap.min.js",
+              "./assets/js/jquery.appear.js",
+              "./assets/js/swiper.min.js",
+              "./assets/js/fancybox.min.js",
+              "./assets/js/slicknav.js",
+              "./assets/js/waypoints.js",
+              "./assets/js/owlcarousel.min.js",
+              "./assets/js/jquery-match-height.min.js",
+              "./assets/js/jquery-zoom.min.js",
+              "./assets/js/countdown.js",
+              "./assets/js/custom.js"
+            ]
           },
           "configurations": {
             "production": {

@@ -5,13 +5,15 @@ import { FrondEndRoutingModule } from './frond-end-routing.module';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LandingComponent } from './views/landing/landing.component';
+import { PreloaderComponent } from './components/preloader/preloader.component';
 
 
 @NgModule({
   declarations: [
     HeaderComponent,
     FooterComponent,
-    LandingComponent
+    LandingComponent,
+    PreloaderComponent
   ],
   imports: [
     CommonModule,
