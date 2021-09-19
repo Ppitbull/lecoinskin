@@ -8,6 +8,9 @@ import { LandingComponent } from './views/landing/landing.component';
 import { PreloaderComponent } from './components/preloader/preloader.component';
 import { SwipperModule } from './components/swipper/swipper.module';
 import { ProductsModule } from './components/products/products.module';
+import { ContactComponent } from './components/contact/contact.component';
+import { SocialLinkComponent } from './components/social-link/social-link.component';
+import { NewLetterFormComponent } from './components/new-letter-form/new-letter-form.component';
 
 
 @NgModule({
@@ -16,6 +19,9 @@ import { ProductsModule } from './components/products/products.module';
     FooterComponent,
     LandingComponent,
     PreloaderComponent,
+    ContactComponent,
+    SocialLinkComponent,
+    NewLetterFormComponent,
   ],
   imports: [
     CommonModule,

@@ -1,4 +1,6 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
+
+// import "./../../../../assets/js/swipper.min"
 // import Swiper from 'swiper';
 declare var Swiper:any;
 
