@@ -6,7 +6,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LandingComponent } from './views/landing/landing.component';
 import { PreloaderComponent } from './components/preloader/preloader.component';
-import { SwipperModule } from './components/swipper/swipper.module';
+import { SwipperCustomModule} from './components/swipper/swipper-custom.module';
 import { ProductsModule } from './components/products/products.module';
 import { ContactComponent } from './components/contact/contact.component';
 import { SocialLinkComponent } from './components/social-link/social-link.component';
@@ -26,7 +26,7 @@ import { NewLetterFormComponent } from './components/new-letter-form/new-letter-
   imports: [
     CommonModule,
     FrondEndRoutingModule,
-    SwipperModule,
+    SwipperCustomModule,
     ProductsModule
   ]
 })

@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SwipperComponent } from './swipper.component';
 import { SwipperItemComponent } from './swipper-item/swipper-item.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -11,11 +12,12 @@ import { SwipperItemComponent } from './swipper-item/swipper-item.component';
     SwipperItemComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports:[
     SwipperComponent,
     SwipperItemComponent
   ]
 })
-export class SwipperModule { }
+export class SwipperCustomModule { }

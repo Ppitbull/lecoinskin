@@ -1,8 +1,8 @@
-import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit, QueryList, ViewChildren } from '@angular/core';
+import { SwipperItemComponent } from './swipper-item/swipper-item.component';
 
-// import "./../../../../assets/js/swipper.min"
-// import Swiper from 'swiper';
 declare var Swiper:any;
+
 
 @Component({
   selector: 'app-swipper',
@@ -11,32 +11,26 @@ declare var Swiper:any;
 })
 export class SwipperComponent implements OnInit, AfterViewInit {
 
+  @ViewChildren(SwipperItemComponent) swipperItem:QueryList<SwipperComponent>;
   constructor() { }
 
-  ngAfterViewInit(): void {
+  ngAfterViewInit(): void {   
     
     let mySwiper = new Swiper ('.swiper-container', {
       // Optional parameters
       direction: 'horizontal',
       loop: true,
+      autoplay: true,
+      effect: 'fade',
   
       // If we need pagination
       pagination: {
         el: '.swiper-pagination',
-      },
-  
-      // Navigation arrows
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-  
-      // And if we need scrollbar
-      scrollbar: {
-        el: '.swiper-scrollbar',
+        clickable: true,
+        type: 'bullets',
       },
     })
-    console.log(mySwiper)
+    // document.querySelectorAll("app-swipper-item").forEach((item)=>item.classList.add('swiper-slide'))
   }
 
   ngOnInit(): void {
